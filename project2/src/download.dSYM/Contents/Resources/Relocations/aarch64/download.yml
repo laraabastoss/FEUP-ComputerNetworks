@@ -1,0 +1,17 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     download
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x10000291C, symSize: 0x110 }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x10000291C, symSize: 0x110 }
+  - { offsetInCU: 0x26, offset: 0x14D, size: 0x8, addend: 0x0, symName: _parse, symObjAddr: 0x0, symBinAddr: 0x100002A2C, symSize: 0x3E4 }
+  - { offsetInCU: 0x48, offset: 0x16F, size: 0x8, addend: 0x0, symName: _parse, symObjAddr: 0x0, symBinAddr: 0x100002A2C, symSize: 0x3E4 }
+  - { offsetInCU: 0x26, offset: 0x34C, size: 0x8, addend: 0x0, symName: _download, symObjAddr: 0x0, symBinAddr: 0x100002E10, symSize: 0x510 }
+  - { offsetInCU: 0x98, offset: 0x3BE, size: 0x8, addend: 0x0, symName: _download, symObjAddr: 0x0, symBinAddr: 0x100002E10, symSize: 0x510 }
+  - { offsetInCU: 0x148, offset: 0x46E, size: 0x8, addend: 0x0, symName: _createSocketConnection, symObjAddr: 0x510, symBinAddr: 0x100003320, symSize: 0x170 }
+  - { offsetInCU: 0x19A, offset: 0x4C0, size: 0x8, addend: 0x0, symName: _readResponse, symObjAddr: 0x680, symBinAddr: 0x100003490, symSize: 0x13C }
+  - { offsetInCU: 0x216, offset: 0x53C, size: 0x8, addend: 0x0, symName: _login, symObjAddr: 0x7BC, symBinAddr: 0x1000035CC, symSize: 0x21C }
+  - { offsetInCU: 0x26A, offset: 0x590, size: 0x8, addend: 0x0, symName: _passive, symObjAddr: 0x9D8, symBinAddr: 0x1000037E8, symSize: 0x204 }
+  - { offsetInCU: 0x2FB, offset: 0x621, size: 0x8, addend: 0x0, symName: _sendCommand, symObjAddr: 0xBDC, symBinAddr: 0x1000039EC, symSize: 0x150 }
+  - { offsetInCU: 0x35D, offset: 0x683, size: 0x8, addend: 0x0, symName: __OSSwapInt16, symObjAddr: 0xD2C, symBinAddr: 0x100003B3C, symSize: 0x24 }
+...
