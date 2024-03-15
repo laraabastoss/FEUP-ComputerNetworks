@@ -8,6 +8,12 @@ year 3, semestre 1
 
 Development of an Application Layer and Data Link layer to communication through a serial port.
 
+#### Developed by:
+
+    Lara Bastos     up202108740
+    Lia Sobral      up202108741
+
+
 ### Project 2  (Grade: 17.5/20)
 
 Development of an FTP protocol and configuration of a computer network for file transfering.
